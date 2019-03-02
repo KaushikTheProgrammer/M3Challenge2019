@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 
 df = pd.read_csv("Datasets/NSDUH_2017.csv")
-ages = df.to_numpy()
+ages = df.to_numpy(str)
 
 #2505
 print(ages.shape[0])
