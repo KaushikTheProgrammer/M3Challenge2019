@@ -192,6 +192,23 @@ max_values = {"Alcohol":
                                           "Not sure": [.1871, 526]
                                           }
                    },
+              "Opiod":
+                  {"gender": {"total": [.14, 14510],
+                              "male": [.134, 6954],
+                              "female": [.144, 7436]
+                              },
+                   "ethnicity": {"Asian": [.08, 641],
+                                 "Black": [.123, 2604],
+                                 "Hispanic": [.151, 3580],
+                                 "White": [.135, 112],
+                                 "Multiple Race": [.185, 816]
+                                 },
+                   "sexual orientation": {"Heterosexual": [0.129, 11952],
+                                          "Homosexual": [0.225, 351],
+                                          "Bisexual": [.248, 1133],
+                                          "Not sure": [.177, 596]
+                                          }
+                   },
               }
 
 population_size = 3300
